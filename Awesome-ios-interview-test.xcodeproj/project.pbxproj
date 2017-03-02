@@ -13,10 +13,7 @@
 		D88BBAC41E680E8F007333CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D88BBAC21E680E8F007333CA /* Main.storyboard */; };
 		D88BBAC61E680E8F007333CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D88BBAC51E680E8F007333CA /* Assets.xcassets */; };
 		D88BBAC91E680E8F007333CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D88BBAC71E680E8F007333CA /* LaunchScreen.storyboard */; };
-		D88BBAD51E680EF5007333CA /* XMEncryptionHMACMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = D88BBAD21E680EF5007333CA /* XMEncryptionHMACMD5.m */; };
-		D88BBAD61E680EF5007333CA /* XMGuid.m in Sources */ = {isa = PBXBuildFile; fileRef = D88BBAD41E680EF5007333CA /* XMGuid.m */; };
-		D88BBAD91E680F1B007333CA /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = D88BBAD81E680F1B007333CA /* NSData+Base64.m */; };
-		D88BBADC1E680FB2007333CA /* ApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D88BBADB1E680FB2007333CA /* ApiClient.m */; };
+		D88BBADF1E68426B007333CA /* properties.json in Resources */ = {isa = PBXBuildFile; fileRef = D88BBADE1E68426B007333CA /* properties.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,14 +27,7 @@
 		D88BBAC51E680E8F007333CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D88BBAC81E680E8F007333CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D88BBACA1E680E8F007333CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D88BBAD11E680EF5007333CA /* XMEncryptionHMACMD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMEncryptionHMACMD5.h; sourceTree = "<group>"; };
-		D88BBAD21E680EF5007333CA /* XMEncryptionHMACMD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMEncryptionHMACMD5.m; sourceTree = "<group>"; };
-		D88BBAD31E680EF5007333CA /* XMGuid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGuid.h; sourceTree = "<group>"; };
-		D88BBAD41E680EF5007333CA /* XMGuid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGuid.m; sourceTree = "<group>"; };
-		D88BBAD71E680F1B007333CA /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
-		D88BBAD81E680F1B007333CA /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
-		D88BBADA1E680FB2007333CA /* ApiClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiClient.h; sourceTree = "<group>"; };
-		D88BBADB1E680FB2007333CA /* ApiClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiClient.m; sourceTree = "<group>"; };
+		D88BBADE1E68426B007333CA /* properties.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = properties.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +44,7 @@
 		D88BBAAD1E680E8F007333CA = {
 			isa = PBXGroup;
 			children = (
-				D88BBAD01E680EF5007333CA /* iOS-XMKit */,
+				D88BBADD1E68426B007333CA /* Resources */,
 				D88BBAB81E680E8F007333CA /* Awesome-ios-interview-test */,
 				D88BBAB71E680E8F007333CA /* Products */,
 			);
@@ -92,20 +82,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D88BBAD01E680EF5007333CA /* iOS-XMKit */ = {
+		D88BBADD1E68426B007333CA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D88BBAD71E680F1B007333CA /* NSData+Base64.h */,
-				D88BBAD81E680F1B007333CA /* NSData+Base64.m */,
-				D88BBAD11E680EF5007333CA /* XMEncryptionHMACMD5.h */,
-				D88BBAD21E680EF5007333CA /* XMEncryptionHMACMD5.m */,
-				D88BBAD31E680EF5007333CA /* XMGuid.h */,
-				D88BBAD41E680EF5007333CA /* XMGuid.m */,
-				D88BBADA1E680FB2007333CA /* ApiClient.h */,
-				D88BBADB1E680FB2007333CA /* ApiClient.m */,
+				D88BBADE1E68426B007333CA /* properties.json */,
 			);
-			name = "iOS-XMKit";
-			path = "Awesome-ios-interview-test/iOS-XMKit";
+			name = Resources;
+			path = "Awesome-ios-interview-test/Resources";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +149,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D88BBADF1E68426B007333CA /* properties.json in Resources */,
 				D88BBAC91E680E8F007333CA /* LaunchScreen.storyboard in Resources */,
 				D88BBAC61E680E8F007333CA /* Assets.xcassets in Resources */,
 				D88BBAC41E680E8F007333CA /* Main.storyboard in Resources */,
@@ -180,12 +164,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D88BBAC11E680E8F007333CA /* ViewController.m in Sources */,
-				D88BBAD61E680EF5007333CA /* XMGuid.m in Sources */,
 				D88BBABE1E680E8F007333CA /* AppDelegate.m in Sources */,
 				D88BBABB1E680E8F007333CA /* main.m in Sources */,
-				D88BBAD51E680EF5007333CA /* XMEncryptionHMACMD5.m in Sources */,
-				D88BBAD91E680F1B007333CA /* NSData+Base64.m in Sources */,
-				D88BBADC1E680FB2007333CA /* ApiClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +320,7 @@
 				D88BBACF1E680E8F007333CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
